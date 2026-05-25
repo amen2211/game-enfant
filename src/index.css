@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@400;700;800&family=Cairo:wght@400;600;700;900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Cairo", "Almarai", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Cairo", "Almarai", system-ui, sans-serif;
+}
+
+/* Playful keyframe bounce animation */
+@keyframes hover-bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
+}
+
+@keyframes pop-in {
+  0% { transform: scale(0.92); opacity: 0; }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+.animate-kids-bounce {
+  animation: hover-bounce 2.2s infinite ease-in-out;
+}
+
+.child-gradient-bg {
+  background-color: #87CEEB;
+  background-image: radial-gradient(rgba(255, 255, 255, 0.4) 2.5px, transparent 2.5px);
+  background-size: 30px 30px;
+}
+
+.soft-card-shadow {
+  box-shadow: 0 12px 0px 0px rgba(15, 23, 42, 0.15), 0 20px 30px -4px rgba(0,0,0,0.1);
+}
+
+/* 3D Cartoon bold styling helpers */
+.bold-card-yellow {
+  background-color: #facc15;
+  border: 8px solid #ffffff;
+  border-radius: 2.75rem;
+  box-shadow: 0 15px 30px -5px rgba(0, 0, 0, 0.2), 0 10px 15px -10px rgba(0, 0, 0, 0.2);
+}
+
+.bold-card-purple {
+  background-color: #a855f7;
+  border: 8px solid #ffffff;
+  border-radius: 2.75rem;
+  box-shadow: 0 15px 30px -5px rgba(0, 0, 0, 0.2), 0 10px 15px -10px rgba(0, 0, 0, 0.2);
+}
+
+.bold-card-orange {
+  background-color: #fb923c;
+  border: 8px solid #ffffff;
+  border-radius: 2.75rem;
+  box-shadow: 0 15px 30px -5px rgba(0, 0, 0, 0.2), 0 10px 15px -10px rgba(0, 0, 0, 0.2);
+}
+
+.bold-card-blue {
+  background-color: #3b82f6;
+  border: 8px solid #ffffff;
+  border-radius: 2.75rem;
+  box-shadow: 0 15px 30px -5px rgba(0, 0, 0, 0.2), 0 10px 15px -10px rgba(0, 0, 0, 0.2);
+}
+
+.bold-card-emerald {
+  background-color: #34d399;
+  border: 8px solid #ffffff;
+  border-radius: 2.75rem;
+  box-shadow: 0 15px 30px -5px rgba(0, 0, 0, 0.2), 0 10px 15px -10px rgba(0, 0, 0, 0.2);
+}
+
+.bold-card-red {
+  background-color: #f87171;
+  border: 8px solid #ffffff;
+  border-radius: 2.75rem;
+  box-shadow: 0 15px 30px -5px rgba(0, 0, 0, 0.2), 0 10px 15px -10px rgba(0, 0, 0, 0.2);
+}
+
+.bold-card-indigo {
+  background-color: #6366f1;
+  border: 8px solid #ffffff;
+  border-radius: 2.75rem;
+  box-shadow: 0 15px 30px -5px rgba(0, 0, 0, 0.2), 0 10px 15px -10px rgba(0, 0, 0, 0.2);
+}
+
+.bold-card-pink {
+  background-color: #ec4899;
+  border: 8px solid #ffffff;
+  border-radius: 2.75rem;
+  box-shadow: 0 15px 30px -5px rgba(0, 0, 0, 0.2), 0 10px 15px -10px rgba(0, 0, 0, 0.2);
+}
+
+/* Smooth custom children scrolling */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(249, 115, 22, 0.2);
+  border-radius: 999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(249, 115, 22, 0.45);
+}

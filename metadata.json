@@ -1,0 +1,6 @@
+{
+  "name": "مدينة الألغاز الذكية",
+  "description": "لعبة مغامرات وألغاز للأطفال من عمر 6 إلى 12 سنة بأسلوب كرتوني وتحديات ذكاء حماسية ومتنوعة.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
